@@ -4,7 +4,7 @@ const cleverbot = require("cleverbot.io");
 const config = require('./config.json');
 
 const client = new SteamUser();
-const bot = new cleverbot("Woj3Qo3imndDAJ3y", "VcbKeaWduEcDE5yAhYw34WuJ4uKJ0lCL");
+const bot = new cleverbot("EDIT ME", "EDIT ME");
 
 const logOnOptions = {
 	accountName: config.username,
@@ -70,7 +70,7 @@ client.on('friendMessage', (steamID, message) =>
 
 function isAdmin(id)
 {
-	if(id == '76561198099045909' || id == '76561198055521169')
+	if(id == 'ADMIN STEAMID')
 		return true;
 	else
 		return false;
