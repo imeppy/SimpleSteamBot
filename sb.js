@@ -39,7 +39,7 @@ client.on('friendMessage', (steamID, message) =>
 	{
 		switch(com[1])
 		{
-			case 'myc':
+			case 'code':
 			{
 				client.chatMessage(steamID, 'Code » ' + SteamTotp.generateAuthCode(config.sharedSecret));
 				break;
