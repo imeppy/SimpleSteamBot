@@ -70,7 +70,7 @@ client.on('friendMessage', (steamID, message) =>
 
 function isAdmin(id)
 {
-	if(id == 'ADMIN STEAMID')
+	if(id == config.admin)
 		return true;
 	else
 		return false;
