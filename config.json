@@ -3,5 +3,6 @@
       	"password": "EDIT ME",
       	"name": "EDIT ME",
       	"identitySecret": "EDIT ME",
-      	"sharedSecret": "EDIT ME"
+      	"sharedSecret": "EDIT ME",
+	"admin": "STEAMID HERE"
 }
